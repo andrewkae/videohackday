@@ -10,7 +10,7 @@ opentok = OpenTok(api_key, api_secret)
 session = opentok.create_session()
 
 
-conn = sqlite3.connect('dmp.db')
+# conn = sqlite3.connect('dmp.db')
 
 @app.route("/")
 def index():
